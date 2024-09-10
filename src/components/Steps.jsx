@@ -46,6 +46,16 @@ const Steps = () => {
 
     const handleReset = () => {
         setActiveStep(0);
+        setFormData({
+            firstName: "",
+            lastName: "",
+            address: "",
+            city: "",
+            postalCode: "",
+            cardNumber: "",
+            expiryDate: "",
+            cvv: "",
+        });
     };
 
     return (
